@@ -1,4 +1,6 @@
-package com.humama.pojo;
+package com.humama.manage.pojo.item;
+
+import com.humama.manage.pojo.BasePojo;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

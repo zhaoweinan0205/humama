@@ -1,14 +1,15 @@
-package com.humama.pojo;
+package com.humama.manage.pojo;
 
 import java.util.Date;
 
 /**
- * @描述: .
- * @作者: ZHaoWeiNan .
- * @创建时间: 2016/9/10 .
- * @版本: 1.0 .
+ * @Description: .
+ * @Author: ZHaoWeiNan .
+ * @CreatedTime: 2016/9/10 .
+ * @Version: 1.0 .
  */
 public abstract class BasePojo {
+
     private Date created;
     private Date updated;
 
