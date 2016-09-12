@@ -22,11 +22,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="humama-parent" />
+        <module name="humama-common" />
+        <module name="humama-manage-mapper" />
+        <module name="humama-manage-pojo" />
+        <module name="humama-manage-service" />
+        <module name="humama-manage-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="humama-common" target="1.7" />
+      <module name="humama-manage" target="1.7" />
+      <module name="humama-manage-mapper" target="1.7" />
+      <module name="humama-manage-pojo" target="1.7" />
+      <module name="humama-manage-service" target="1.7" />
+      <module name="humama-manage-web" target="1.7" />
       <module name="humama-parent" target="1.7" />
+      <module name="taotao-manage-pojo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
