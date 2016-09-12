@@ -918,7 +918,7 @@
       <workItem from="1473643769703" duration="3959000" />
       <workItem from="1473648299268" duration="3676000" />
       <workItem from="1473686262149" duration="8291000" />
-      <workItem from="1473695675995" duration="4614000" />
+      <workItem from="1473695675995" duration="4624000" />
     </task>
     <task id="LOCAL-00001" summary="胡麻麻商城项目中所用到对的公共组件">
       <created>1473484491875</created>
@@ -1025,11 +1025,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473700506323</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="更新父项目的版本">
+      <created>1473700541869</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1473700541869</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35645000" />
+    <option name="totallyTimeSpent" value="35655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
