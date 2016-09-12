@@ -3,10 +3,10 @@ package com.humama.common.httpclient;
 import org.apache.http.conn.HttpClientConnectionManager;
 
 /**
- * @描述: .
- * @作者: ZHaoWeiNan .
- * @创建时间: 2016/9/10 .
- * @版本: 1.0 .
+ * @Description: .
+ * @Author: ZHaoWeiNan .
+ * @CreatedTime: 2016/9/10 .
+ * @Version: 1.0 .
  */
 public class IdleConnectionEvictor extends Thread {
 

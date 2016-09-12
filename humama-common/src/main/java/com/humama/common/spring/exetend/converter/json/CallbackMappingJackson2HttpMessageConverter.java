@@ -14,10 +14,10 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 /**
- * @描述: 处理跨域的通用解决方案.
- * @作者: ZHaoWeiNan .
- * @创建时间: 2016/9/10 .
- * @版本: 1.0 .
+ * @Description: 处理跨域的通用解决方案.
+ * @Author: ZHaoWeiNan .
+ * @CreatedTime: 2016/9/10 .
+ * @Version: 1.0 .
  */
 public class CallbackMappingJackson2HttpMessageConverter
         extends MappingJackson2HttpMessageConverter {

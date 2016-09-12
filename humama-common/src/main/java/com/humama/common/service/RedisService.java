@@ -1,12 +1,15 @@
 package com.humama.common.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import redis.clients.jedis.ShardedJedis;
 import redis.clients.jedis.ShardedJedisPool;
 
-@Service
+/**
+ * @Description: redis公用服务类.
+ * @Author: ZHaoWeiNan .
+ * @CreatedTime: 2016/9/12 .
+ * @Version: 1.0 .
+ */
 public class RedisService {
 
     @Autowired(required = false)//如果Spring容器中有，就注入，没有就忽略
@@ -31,7 +34,7 @@ public class RedisService {
 
     /**
      * 执行SET操作
-     * 
+     *
      * @param key
      * @param value
      * @return
@@ -47,7 +50,7 @@ public class RedisService {
 
     /**
      * 执行GET操作
-     * 
+     *
      * @param key
      * @return
      */
@@ -62,7 +65,7 @@ public class RedisService {
 
     /**
      * 删除key
-     * 
+     *
      * @param key
      * @return
      */
@@ -77,7 +80,7 @@ public class RedisService {
 
     /**
      * 设置生存时间，单位为：秒
-     * 
+     *
      * @param key
      * @param seconds
      * @return
@@ -93,7 +96,7 @@ public class RedisService {
 
     /**
      * 设置String类型的值，并且指定生存时间，单位为：秒
-     * 
+     *
      * @param key
      * @param value
      * @param seconds
@@ -110,4 +113,5 @@ public class RedisService {
             }
         });
     }
+
 }

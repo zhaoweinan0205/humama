@@ -18,7 +18,6 @@ import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -26,7 +25,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-@Service
+/**
+ * @Description: .
+ * @Author: ZHaoWeiNan .
+ * @CreatedTime: 2016/9/12 .
+ * @Version: 1.0 .
+ */
 public class ApiService implements BeanFactoryAware {
 
     private BeanFactory beanFactory;
@@ -36,7 +40,7 @@ public class ApiService implements BeanFactoryAware {
 
     /**
      * 执行GET请求，响应200返回内容，404返回null
-     * 
+     *
      * @param url
      * @return
      * @throws ClientProtocolException
@@ -64,7 +68,7 @@ public class ApiService implements BeanFactoryAware {
 
     /**
      * 带有参数的GET请求，响应200返回内容，404返回null
-     * 
+     *
      * @param url
      * @param params
      * @return
@@ -83,7 +87,7 @@ public class ApiService implements BeanFactoryAware {
 
     /**
      * 执行post请求
-     * 
+     *
      * @param url
      * @param params
      * @return
@@ -119,7 +123,7 @@ public class ApiService implements BeanFactoryAware {
 
     /**
      * 执行post请求，发送json数据
-     * 
+     *
      * @param url
      * @param json
      * @return
