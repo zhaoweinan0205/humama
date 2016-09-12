@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f7100dc-8df4-4c0c-baad-919e2674e3dc" name="Default" comment="胡麻麻manage项目，web model，打成war包">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="9f7100dc-8df4-4c0c-baad-919e2674e3dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="humama-parent.iws" />
@@ -923,7 +918,7 @@
       <workItem from="1473643769703" duration="3959000" />
       <workItem from="1473648299268" duration="3676000" />
       <workItem from="1473686262149" duration="8291000" />
-      <workItem from="1473695675995" duration="4549000" />
+      <workItem from="1473695675995" duration="4614000" />
     </task>
     <task id="LOCAL-00001" summary="胡麻麻商城项目中所用到对的公共组件">
       <created>1473484491875</created>
@@ -1023,11 +1018,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473700461298</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="更新父项目的版本">
+      <created>1473700506323</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1473700506323</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35580000" />
+    <option name="totallyTimeSpent" value="35645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1094,7 +1096,8 @@
     <MESSAGE value="增加了商品类目service类" />
     <MESSAGE value="增加了商品类目controller类" />
     <MESSAGE value="更新tomcat插件，端口改为8081" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新tomcat插件，端口改为8081" />
+    <MESSAGE value="更新父项目的版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新父项目的版本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
