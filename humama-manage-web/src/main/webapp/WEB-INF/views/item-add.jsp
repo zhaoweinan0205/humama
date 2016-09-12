@@ -9,16 +9,16 @@
 	            <td>商品类目:</td>
 	            <td>
 	            	<a href="javascript:void(0)" class="easyui-linkbutton selectItemCat">选择类目</a>
-	            	<input type="hidden" name="cid" style="width: 280px;"></input>
+	            	<input type="hidden" name="cid" style="width: 280px;"/>
 	            </td>
 	        </tr>
 	        <tr>
 	            <td>商品标题:</td>
-	            <td><input class="easyui-textbox" type="text" name="title" data-options="required:true" style="width: 280px;"></input></td>
+	            <td><input class="easyui-textbox" type="text" name="title" data-options="required:true" style="width: 280px;"/></td>
 	        </tr>
 	        <tr>
 	            <td>商品卖点:</td>
-	            <td><input class="easyui-textbox" name="sellPoint" data-options="multiline:true,validType:'length[0,150]'" style="height:60px;width: 280px;"></input></td>
+	            <td><input class="easyui-textbox" name="sellPoint" data-options="multiline:true,validType:'length[0,150]'" style="height:60px;width: 280px;"/></td>
 	        </tr>
 	        <tr>
 	            <td>商品价格:</td>
@@ -66,11 +66,11 @@
 <script type="text/javascript">
 	var itemAddEditor ;
 	$(function(){
-		itemAddEditor = TAOTAO.createEditor("#itemAddForm [name=desc]");
+		itemAddEditor = HUMAMA.createEditor("#itemAddForm [name=desc]");
 		var _data = {fun:function(node){
-			TAOTAO.changeItemParam(node, "itemAddForm");
+			HUMAMA.changeItemParam(node, "itemAddForm");
 		}};
-		TAOTAO.init(_data);
+		HUMAMA.init(_data);
 	});
 	
 	function submitForm(){
