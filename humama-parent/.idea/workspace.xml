@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f7100dc-8df4-4c0c-baad-919e2674e3dc" name="Default" comment="更新父项目的版本">
+    <list default="true" id="9f7100dc-8df4-4c0c-baad-919e2674e3dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="humama-parent.iws" />
@@ -905,7 +905,7 @@
       <workItem from="1473773997334" duration="4396000" />
       <workItem from="1473818024664" duration="812000" />
       <workItem from="1473834663948" duration="10838000" />
-      <workItem from="1474108690814" duration="26325000" />
+      <workItem from="1474108690814" duration="26340000" />
     </task>
     <task id="LOCAL-00001" summary="胡麻麻商城项目中所用到对的公共组件">
       <created>1473484491875</created>
@@ -1061,11 +1061,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474135290575</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="更新父项目的版本">
+      <created>1474135308125</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1474135308125</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80109000" />
+    <option name="totallyTimeSpent" value="80124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1132,13 +1139,13 @@
     <MESSAGE value="增加了商品类目service类" />
     <MESSAGE value="增加了商品类目controller类" />
     <MESSAGE value="更新tomcat插件，端口改为8081" />
-    <MESSAGE value="更新父项目的版本" />
     <MESSAGE value="增加了EasyUIbean,图片上传组件，配置文件Service" />
     <MESSAGE value="增加了商品规格描述、规格模板实体类" />
     <MESSAGE value="增加了商品规格、规格模板mapper" />
     <MESSAGE value="增加了商品规格、规格模板service" />
     <MESSAGE value="实现了商品规格设置吗，增加商品模板功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了商品规格设置吗，增加商品模板功能" />
+    <MESSAGE value="更新父项目的版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新父项目的版本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
