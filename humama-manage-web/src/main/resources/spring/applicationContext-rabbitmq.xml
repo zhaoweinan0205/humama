@@ -14,9 +14,9 @@
 	<rabbit:admin connection-factory="connectionFactory"/>
 	
 	<!-- 定义交换机 -->
-	<rabbit:topic-exchange name="taotao-item-exchange" durable="true" auto-declare="true"/>
+	<rabbit:topic-exchange name="HUMAMA-item-exchange" durable="true" auto-declare="true"/>
 	
 	<!-- 定义模板 -->
-	<rabbit:template id="template" connection-factory="connectionFactory" exchange="taotao-item-exchange"/>
+	<rabbit:template id="template" connection-factory="connectionFactory" exchange="HUMAMA-item-exchange"/>
 
 </beans>

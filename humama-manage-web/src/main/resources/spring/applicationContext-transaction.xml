@@ -24,7 +24,7 @@
 	</tx:advice>
 	
 	<!-- 定义AOP切面处理器 -->
-	<!--<bean class="com.taotao.manage.datasource.DataSourceAspect" id="dataSourceAspect" />-->
+	<!--<bean class="com.HUMAMA.manage.datasource.DataSourceAspect" id="dataSourceAspect" />-->
 	
 
 	<aop:config>

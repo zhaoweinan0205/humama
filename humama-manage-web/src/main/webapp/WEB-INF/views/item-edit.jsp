@@ -17,11 +17,11 @@
 	        </tr>
 	        <tr>
 	            <td>商品标题:</td>
-	            <td><input class="easyui-textbox" type="text" name="title" data-options="required:true" style="width: 280px;"></input></td>
+	            <td><input class="easyui-textbox" type="text" name="title" data-options="required:true" style="width: 280px;"/></td>
 	        </tr>
 	        <tr>
 	            <td>商品卖点:</td>
-	            <td><input class="easyui-textbox" name="sellPoint" data-options="multiline:true,validType:'length[0,150]'" style="height:60px;width: 280px;"></input></td>
+	            <td><input class="easyui-textbox" name="sellPoint" data-options="multiline:true,validType:'length[0,150]'" style="height:60px;width: 280px;"/></td>
 	        </tr>
 	        <tr>
 	            <td>商品价格:</td>
@@ -70,7 +70,7 @@
 	var itemEditEditor ;
 	$(function(){
 		//实例化编辑器
-		itemEditEditor = TAOTAO.createEditor("#itemeEditForm [name=desc]");
+		itemEditEditor = HUMAMA.createEditor("#itemeEditForm [name=desc]");
 	});
 	
 	function submitForm(){

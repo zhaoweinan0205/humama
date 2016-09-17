@@ -4,7 +4,7 @@
 	<tr>
 		<td>商品类目:</td>
 		<td><a href="javascript:void(0)" class="easyui-linkbutton selectItemCat">选择类目</a> 
-			<input type="hidden" name="cid" style="width: 280px;"></input>
+			<input type="hidden" name="cid" style="width: 280px;"/>
 		</td>
 	</tr>
 	<tr class="hide addGroupTr">
@@ -37,7 +37,7 @@
 </div>
 <script style="text/javascript">
 	$(function(){
-		TAOTAO.initItemCat({
+		HUMAMA.initItemCat({
 			fun:function(node){
 			$(".addGroupTr").hide().find(".param").remove();
 				//  判断选择的目录是否已经添加过规格

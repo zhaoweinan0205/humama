@@ -93,7 +93,7 @@
 	</bean>-->
 	
 	<!-- 定义数据源，使用自己实现的数据源 -->
-	<!--<bean id="dataSource" class="com.taotao.manage.datasource.DynamicDataSource">
+	<!--<bean id="dataSource" class="com.HUMAMA.manage.datasource.DynamicDataSource">
 		&lt;!&ndash; 设置多个数据源 &ndash;&gt;
 		<property name="targetDataSources">
 			<map key-type="java.lang.String">

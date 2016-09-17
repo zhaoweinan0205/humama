@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.humama.manage.mapper.item.ItemParamMapper">
+    <sql id="ItemParamColum">
+        p.id id,p.item_cat_id itemCatId,c.name itemCatName,
+        p.param_data paramData,p.created created,
+        p.updated updated
+    </sql>
+    <resultMap id="ItemParamMap" type="java.util.HashMap">
+        <result column="id" property="id" jdbcType="BIGINT"/>
+        <result column="itemCatId" property="itemCatId" jdbcType="BIGINT"/>
+        <result column="itemCatName" property="itemCatName" jdbcType="VARCHAR"/>
+        <result column="paramData" property="paramData" jdbcType="VARCHAR"/>
+        <result column="created" property="created" jdbcType="DATE"/>
+        <result column="updated" property="updated" jdbcType="DATE"/>
+    </resultMap>
+    <select id="queryPageList" resultMap="ItemParamMap" parameterType="java.util.HashMap">
+        SELECT
+        <include refid="ItemParamColum"/>
+        FROM (select id,item_cat_id,param_data,created,updated
+        from tb_item_param limit #{page},#{rows}) p LEFT JOIN
+        tb_item_cat c ON p.item_cat_id = c.id ORDER BY p.updated DESC;
+    </select>
+</mapper>
