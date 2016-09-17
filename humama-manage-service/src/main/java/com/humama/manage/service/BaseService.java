@@ -7,6 +7,7 @@ import com.github.pagehelper.PageInfo;
 import com.humama.manage.pojo.BasePojo;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -61,6 +62,8 @@ public abstract class BaseService<T extends BasePojo> {
         return this.mapper.select(record);
     }
 
+
+
     /**
      * 分页查询数据列表
      *
@@ -83,6 +86,8 @@ public abstract class BaseService<T extends BasePojo> {
      * @return
      */
     public Integer save(T t) {
+        t.setCreated(new Date());
+        t.setUpdated(t.getCreated());
         return this.mapper.insert(t);
     }
 
@@ -93,6 +98,8 @@ public abstract class BaseService<T extends BasePojo> {
      * @return
      */
     public Integer saveSelective(T t) {
+        t.setCreated(new Date());
+        t.setUpdated(t.getCreated());
         return this.mapper.insertSelective(t);
     }
 
@@ -103,6 +110,7 @@ public abstract class BaseService<T extends BasePojo> {
      * @return
      */
     public Integer update(T t) {
+        t.setUpdated(new Date());
         return this.mapper.updateByPrimaryKey(t);
     }
 
@@ -113,6 +121,7 @@ public abstract class BaseService<T extends BasePojo> {
      * @return
      */
     public Integer updateSelective(T t) {
+        t.setUpdated(new Date());
         return this.mapper.updateByPrimaryKeySelective(t);
     }
 
