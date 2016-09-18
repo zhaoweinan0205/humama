@@ -6,13 +6,13 @@ import com.github.pagehelper.PageInfo;
 import com.humama.manage.mapper.item.ItemMapper;
 import com.humama.manage.pojo.item.Item;
 import com.humama.manage.pojo.item.ItemDesc;
-import com.humama.manage.pojo.item.ItemParam;
 import com.humama.manage.pojo.item.ItemParamItem;
 import com.humama.manage.service.BaseService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -84,6 +84,20 @@ public class ItemService extends BaseService<Item> {
 
         //修改规格参数
         this.itemParamItemService.updateItemParamItem(item.getId(),itemParams);
+    }
+
+    public void deleteItemByIds(String ids){
+        String[] arrays = StringUtils.split(ids,",");
+        List<Object> list = new ArrayList<>();
+        for (String s : arrays){
+            list.add(s);
+        }
+        //删除描述
+        this.itemDescService.deleteByIds(ItemDesc.class,"itemId",list);
+        //删除规格参数
+        this.itemParamItemService.deleteByIds(ItemParamItem.class,"itemId",list);
+        //删除商品
+        this.deleteByIds(Item.class,"id",list);
     }
 
 }

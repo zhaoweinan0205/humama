@@ -1,4 +1,4 @@
-package com.humama.common.service;
+package com.humama.manage.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
