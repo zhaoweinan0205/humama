@@ -95,7 +95,7 @@ public class ItemController {
             ItemDesc itemDesc = this.itemDescService.queryById(itemId);
             if (itemDesc == null){
                 LOGGER.info("查询商品描述为空");
-                return ResponseEntity.status(HttpStatus.NOT_FOUND).body(itemDesc);
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
             }
             LOGGER.info("查询商品描述{}",itemDesc);
             return ResponseEntity.status(HttpStatus.OK).body(itemDesc);
@@ -131,6 +131,26 @@ public class ItemController {
             LOGGER.error("更新商品发生异常，异常为{}",e);
         }
 
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+    }
+
+    /**
+     * 删除商品信息
+     * @param ids
+     * @return
+     */
+    @RequestMapping(value = "delete",method = RequestMethod.POST)
+    public ResponseEntity<Void> deleteItem(@RequestParam("ids") String ids){
+        try{
+            if (StringUtils.isEmpty(ids)){
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+            }
+            this.itemService.deleteItemByIds(ids);
+            LOGGER.info("删除商品信息，ids={}",ids);
+            return ResponseEntity.status(HttpStatus.OK).build();
+        }catch (Exception e){
+            LOGGER.error("删除商品信息发生异常，异常为{}",e);
+        }
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
     }
 }

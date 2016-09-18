@@ -3,7 +3,7 @@ package com.humama.manage.controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.humama.common.bean.PicUploadResult;
-import com.humama.common.service.PropertieService;
+import com.humama.manage.service.PropertieService;
 import org.apache.commons.lang3.RandomUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.joda.time.DateTime;
