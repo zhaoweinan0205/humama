@@ -9,6 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/../humama-manage-service/humama-manage-service.iml" filepath="$PROJECT_DIR$/../humama-manage-service/humama-manage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../humama-manage-web/humama-manage-web.iml" filepath="$PROJECT_DIR$/../humama-manage-web/humama-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/humama-parent.iml" filepath="$PROJECT_DIR$/humama-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../humama-web/humama-web.iml" filepath="$PROJECT_DIR$/../humama-web/humama-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../humama-web-pojo/humama-web-pojo.iml" filepath="$PROJECT_DIR$/../humama-web-pojo/humama-web-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../humama-web-service/humama-web-service.iml" filepath="$PROJECT_DIR$/../humama-web-service/humama-web-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../humama-web-web/humama-web-web.iml" filepath="$PROJECT_DIR$/../humama-web-web/humama-web-web.iml" />
     </modules>
   </component>
 </project>

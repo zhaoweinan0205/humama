@@ -27,6 +27,9 @@
         <module name="humama-manage-pojo" />
         <module name="humama-manage-service" />
         <module name="humama-manage-web" />
+        <module name="humama-web-pojo" />
+        <module name="humama-web-service" />
+        <module name="humama-web-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +40,10 @@
       <module name="humama-manage-service" target="1.7" />
       <module name="humama-manage-web" target="1.7" />
       <module name="humama-parent" target="1.7" />
+      <module name="humama-web" target="1.7" />
+      <module name="humama-web-pojo" target="1.7" />
+      <module name="humama-web-service" target="1.7" />
+      <module name="humama-web-web" target="1.7" />
       <module name="taotao-manage-pojo" target="1.7" />
     </bytecodeTargetLevel>
   </component>

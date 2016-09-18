@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="humama-web-web:war">
+    <output-path>$PROJECT_DIR$/../humama-web-web/target</output-path>
+    <root id="archive" name="humama-web-web.war">
+      <element id="artifact" artifact-name="humama-web-web:war exploded" />
+    </root>
+  </artifact>
+</component>

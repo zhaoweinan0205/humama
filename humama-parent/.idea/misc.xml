@@ -5,6 +5,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../humama-manage-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../humama-web-web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,6 +13,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../humama-common/pom.xml" />
         <option value="$PROJECT_DIR$/../humama-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/../humama-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
