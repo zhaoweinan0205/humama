@@ -21,6 +21,11 @@
 					<constructor-arg index="1" value="${redis.node1.port}"/>
 					<property name="password" value="${redis.node1.password}"/>
 				</bean>
+				<!--<bean class="redis.clients.jedis.JedisShardInfo">
+					<constructor-arg index="0" value="${redis.node2.host}"/>
+					<constructor-arg index="1" value="${redis.node2.port}"/>
+					<property name="password" value="${redis.node2.password}"/>
+				</bean>-->
 			</list>
 		</constructor-arg>
 	</bean>

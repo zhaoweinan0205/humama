@@ -9,6 +9,11 @@
       <module fileurl="file://$PROJECT_DIR$/../humama-manage-service/humama-manage-service.iml" filepath="$PROJECT_DIR$/../humama-manage-service/humama-manage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/../humama-manage-web/humama-manage-web.iml" filepath="$PROJECT_DIR$/../humama-manage-web/humama-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/humama-parent.iml" filepath="$PROJECT_DIR$/humama-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../humama-sso/humama-sso.iml" filepath="$PROJECT_DIR$/../humama-sso/humama-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../humama-sso-mapper/humama-sso-mapper.iml" filepath="$PROJECT_DIR$/../humama-sso-mapper/humama-sso-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../humama-sso-pojo/humama-sso-pojo.iml" filepath="$PROJECT_DIR$/../humama-sso-pojo/humama-sso-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../humama-sso-service/humama-sso-service.iml" filepath="$PROJECT_DIR$/../humama-sso-service/humama-sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../humama-sso-web/humama-sso-web.iml" filepath="$PROJECT_DIR$/../humama-sso-web/humama-sso-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../humama-web/humama-web.iml" filepath="$PROJECT_DIR$/../humama-web/humama-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../humama-web-pojo/humama-web-pojo.iml" filepath="$PROJECT_DIR$/../humama-web-pojo/humama-web-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../humama-web-service/humama-web-service.iml" filepath="$PROJECT_DIR$/../humama-web-service/humama-web-service.iml" />

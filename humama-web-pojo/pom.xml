@@ -12,4 +12,11 @@
     <artifactId>humama-web-pojo</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.humama.manage</groupId>
+            <artifactId>humama-manage-pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

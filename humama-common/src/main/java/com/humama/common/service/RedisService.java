@@ -1,6 +1,7 @@
 package com.humama.common.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import redis.clients.jedis.ShardedJedis;
 import redis.clients.jedis.ShardedJedisPool;
 
@@ -10,6 +11,7 @@ import redis.clients.jedis.ShardedJedisPool;
  * @CreatedTime: 2016/9/12 .
  * @Version: 1.0 .
  */
+@Service
 public class RedisService {
 
     @Autowired(required = false)//如果Spring容器中有，就注入，没有就忽略

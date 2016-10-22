@@ -1,14 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f7100dc-8df4-4c0c-baad-919e2674e3dc" name="Default" comment="humama-web-web，主要为前台网站系统中的web项目，打war包">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/humama_web_web_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/humama_web_web_war_exploded.xml" />
+    <list default="true" id="9f7100dc-8df4-4c0c-baad-919e2674e3dc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-manage-mapper/src/main/java/com/humama/manage/mapper/content/ContentCategoryMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-manage-mapper/src/main/java/com/humama/manage/mapper/content/ContentMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-manage-pojo/src/main/java/com/humama/manage/pojo/content/Content.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-manage-pojo/src/main/java/com/humama/manage/pojo/content/ContentCategory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/content/ContentCategoryService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/content/ContentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemDescController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/content/ContentCategoryController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/content/ContentController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/humama_sso_web_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/humama_sso_web_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-mapper/humama-sso-mapper.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-mapper/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-mapper/src/main/java/com/humama/sso/mapper/UserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-pojo/humama-sso-pojo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-pojo/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-pojo/src/main/java/com/humama/sso/pojo/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-service/humama-sso-service.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-service/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-service/src/main/java/com/humama/sso/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/humama-sso-web.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/java/com/humama/sso/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/resources/env.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/resources/jdbc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/resources/mybatis/mybatis-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/resources/redis.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/applicationContext-mybatis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/applicationContext-redis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/applicationContext-transaction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/humama-sso-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/commons/footer-links.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/commons/footer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/commons/header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/commons/shortcut.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/views/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/views/register.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso/humama-sso.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-sso/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-web-pojo/src/main/java/com/humama/web/pojo/item/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-web-service/src/main/java/com/humama/web/service/IndexService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-web-service/src/main/java/com/humama/web/service/item/ItemService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-web-web/src/main/java/com/humama/web/controller/item/ItemController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-web-web/src/main/resources/spring/applicationContext-httpclient.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../humama-web-web/src/main/resources/spring/applicationContext-redis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-common/humama-common.iml" afterPath="$PROJECT_DIR$/../humama-common/humama-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/bean/EasyUIResult.java" afterPath="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/bean/EasyUIResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/service/ApiService.java" afterPath="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/service/ApiService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/service/RedisService.java" afterPath="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/service/RedisService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage-mapper/humama-manage-mapper.iml" afterPath="$PROJECT_DIR$/../humama-manage-mapper/humama-manage-mapper.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage-pojo/humama-manage-pojo.iml" afterPath="$PROJECT_DIR$/../humama-manage-pojo/humama-manage-pojo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage-service/humama-manage-service.iml" afterPath="$PROJECT_DIR$/../humama-manage-service/humama-manage-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/item/ItemCatService.java" afterPath="$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/item/ItemCatService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage-web/humama-manage-web.iml" afterPath="$PROJECT_DIR$/../humama-manage-web/humama-manage-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemController.java" afterPath="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage-web/src/main/resources/env.properties" afterPath="$PROJECT_DIR$/../humama-manage-web/src/main/resources/env.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage-web/src/main/resources/redis.properties" afterPath="$PROJECT_DIR$/../humama-manage-web/src/main/resources/redis.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage-web/src/main/resources/spring/applicationContext-redis.xml" afterPath="$PROJECT_DIR$/../humama-manage-web/src/main/resources/spring/applicationContext-redis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/content-category.jsp" afterPath="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/content-category.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/content-edit.jsp" afterPath="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/content-edit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-manage/humama-manage.iml" afterPath="$PROJECT_DIR$/../humama-manage/humama-manage.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/humama_manage_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/humama_manage_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/humama_web_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/humama_web_web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-web-pojo/humama-web-pojo.iml" afterPath="$PROJECT_DIR$/../humama-web-pojo/humama-web-pojo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-web-pojo/pom.xml" afterPath="$PROJECT_DIR$/../humama-web-pojo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-web-service/humama-web-service.iml" afterPath="$PROJECT_DIR$/../humama-web-service/humama-web-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-web-service/pom.xml" afterPath="$PROJECT_DIR$/../humama-web-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-web-web/humama-web-web.iml" afterPath="$PROJECT_DIR$/../humama-web-web/humama-web-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-web-web/src/main/java/com/humama/web/controller/IndexController.java" afterPath="$PROJECT_DIR$/../humama-web-web/src/main/java/com/humama/web/controller/IndexController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-web-web/src/main/resources/env.properties" afterPath="$PROJECT_DIR$/../humama-web-web/src/main/resources/env.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-web-web/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/../humama-web-web/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-web-web/src/main/resources/redis.properties" afterPath="$PROJECT_DIR$/../humama-web-web/src/main/resources/redis.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/item.jsp" afterPath="$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/item.jsp" />
     </list>
     <ignored path="humama-parent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,6 +105,11 @@
     <ignored path="$PROJECT_DIR$/../humama-web-pojo/target/" />
     <ignored path="$PROJECT_DIR$/../humama-web-service/target/" />
     <ignored path="$PROJECT_DIR$/../humama-web-web/target/" />
+    <ignored path="$PROJECT_DIR$/../humama-sso/target/" />
+    <ignored path="$PROJECT_DIR$/../humama-sso-service/target/" />
+    <ignored path="$PROJECT_DIR$/../humama-sso-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/../humama-sso-web/target/" />
+    <ignored path="$PROJECT_DIR$/../humama-sso-mapper/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +126,26 @@
     <favorites_list name="humama-parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/java/com/humama/sso/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="mappers" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,57 +161,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../humama-manage-pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/bean/PicUploadResult.java" />
-        <option value="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/service/PropertieService.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/PicUploadController.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/resources/env.properties" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/item-add.jsp" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/item-list.jsp" />
-        <option value="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/bean/EasyUIResult.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/item-edit.jsp" />
-        <option value="$PROJECT_DIR$/../humama-manage-pojo/src/main/java/com/humama/manage/pojo/item/ItemParam.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-pojo/src/main/java/com/humama/manage/pojo/item/ItemParamItem.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-mapper/src/main/java/com/humama/manage/mapper/item/ItemParamItemMapper.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/item-param-add.jsp" />
-        <option value="$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/item/ItemParamItemService.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/item-param-list.jsp" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemParamItemController.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/resources/mybatis/Item/ItemParamMapper.xml" />
-        <option value="$PROJECT_DIR$/../humama-manage-mapper/src/main/java/com/humama/manage/mapper/item/ItemParamMapper.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/resources/mybatis/item/ItemParamMapper.xml" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/resources/spring/applicationContext-mybatis.xml" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/resources/mybatis/mappers/item/ItemParamMapper.xml" />
-        <option value="$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/item/ItemParamService.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemParamController.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/test/java/testIds.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemController.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/item/ItemService.java" />
-        <option value="$PROJECT_DIR$/../humama-web-pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/../humama-web-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../humama-web-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../humama-web-web/src/main/resources/spring/humama-web-servlet.xml" />
-        <option value="$PROJECT_DIR$/../humama-web-web/src/main/resources/spring/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/../humama-web-web/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/../humama-web-web/src/main/java/com/humama/web/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/PropertieService.java" />
-        <option value="$PROJECT_DIR$/../humama-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../humama-web-web/src/main/webapp/js/item-cat-all.json" />
+        <option value="$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/content/ContentCategoryService.java" />
+        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/content/ContentController.java" />
+        <option value="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/service/ApiService.java" />
         <option value="$PROJECT_DIR$/../humama-web-web/src/main/resources/env.properties" />
-        <option value="$PROJECT_DIR$/../humama-web-web/src/main/webapp/js/humama.js" />
-        <option value="$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/bean/ItemCatResult.java" />
-        <option value="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/bean/ItemCatData.java" />
+        <option value="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/bean/EasyUIResult.java" />
+        <option value="$PROJECT_DIR$/../humama-web-service/src/main/java/com/humama/web/service/IndexService.java" />
+        <option value="$PROJECT_DIR$/../humama-web-web/src/main/java/com/humama/web/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/service/RedisService.java" />
         <option value="$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/item/ItemCatService.java" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/test-json.htm" />
-        <option value="$PROJECT_DIR$/../humama-web-web/src/main/webapp/test-json.htm" />
-        <option value="$PROJECT_DIR$/../humama-web-web/src/main/webapp/test-json-2.htm" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/json.jsp" />
-        <option value="$PROJECT_DIR$/../humama-web-web/src/main/webapp/test-json-3.htm" />
-        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/api/ApiItemCatController.java" />
-        <option value="$PROJECT_DIR$/../humama-web-web/src/main/webapp/js/lib-v1.js" />
+        <option value="$PROJECT_DIR$/../humama-web-pojo/src/main/java/com/humama/web/pojo/item/pojo.java" />
+        <option value="$PROJECT_DIR$/../humama-web-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../humama-web-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/../humama-web-pojo/src/main/java/com/humama/web/pojo/item/Item.java" />
+        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/PicUploadController.java" />
+        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/../humama-web-web/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/../humama-web-web/src/main/resources/spring/applicationContext-httpclient.xml" />
+        <option value="$PROJECT_DIR$/../humama-web-web/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/content-edit.jsp" />
+        <option value="$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/item.jsp" />
+        <option value="$PROJECT_DIR$/../humama-web-web/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemController.java" />
+        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemDescController.java" />
+        <option value="$PROJECT_DIR$/../humama-web-web/src/main/java/com/humama/web/controller/item/ItemController.java" />
+        <option value="$PROJECT_DIR$/../humama-web-service/src/main/java/com/humama/web/service/item/ItemService.java" />
+        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/webapp/js/common.js" />
+        <option value="$PROJECT_DIR$/../humama-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/../humama-sso-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/../humama-sso-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/humama-sso-servlet.xml" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/applicationContext-transaction.xml" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/applicationContext-mybatis.xml" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/commons/shortcut.jsp" />
+        <option value="$PROJECT_DIR$/../humama-manage-web/src/main/resources/env.properties" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/commons/footer.jsp" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/commons/header.jsp" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/../humama-sso-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/../humama-sso-pojo/src/main/java/com/humama/sso/pojo/User.java" />
+        <option value="$PROJECT_DIR$/../humama-sso-mapper/src/main/java/com/humama/sso/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../humama-sso-service/src/main/java/com/humama/sso/service/UserService.java" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/java/com/humama/sso/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/views/register.jsp" />
       </list>
     </option>
   </component>
@@ -135,12 +233,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-    <option name="disabledProfiles">
-      <list>
-        <option value="sonar" />
-        <option value="edu" />
-      </list>
-    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -155,7 +247,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -295,7 +387,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,11 +399,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../humama-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../humama-sso" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -323,14 +415,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FTD\humama\humama-sso-web\src\main\resources" />
+      <recent name="D:\FTD\humama\humama-sso-web\src\main" />
+      <recent name="D:\FTD\humama\humama-web-web\src\main\resources\spring" />
       <recent name="D:\FTD\humama\humama-web-web\src\main" />
       <recent name="D:\FTD\humama\humama-web-web\src\main\resources" />
-      <recent name="D:\FTD\humama\humama-manage-web\src\main\resources" />
-      <recent name="D:\FTD\humama\humama-manage-web\src\main" />
-      <recent name="D:\FTD\humama\humama-manage-pojo\src\main\java\com\humama\pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.humama-web">
+  <component name="RunManager" selected="Maven.humama-sso">
     <configuration default="false" name="testIds.ids" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="humama-manage-web" />
@@ -810,6 +902,30 @@
       </MavenSettings>
       <method />
     </configuration>
+    <configuration default="false" name="humama-sso" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../humama-sso" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="false" name="humama-manage" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -834,10 +950,11 @@
       </MavenSettings>
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.testIds.ids" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.humama-web" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Maven.humama-web" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.humama-sso" />
       <item index="2" class="java.lang.String" itemvalue="Maven.humama-manage" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.testIds.ids" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -883,7 +1000,37 @@
       <workItem from="1473818024664" duration="812000" />
       <workItem from="1473834663948" duration="10838000" />
       <workItem from="1474108690814" duration="26468000" />
-      <workItem from="1474180574051" duration="12485000" />
+      <workItem from="1474180574051" duration="12608000" />
+      <workItem from="1474247068899" duration="498000" />
+      <workItem from="1474264890262" duration="13167000" />
+      <workItem from="1474291108634" duration="9754000" />
+      <workItem from="1474350889897" duration="2437000" />
+      <workItem from="1474377457104" duration="1435000" />
+      <workItem from="1474420098301" duration="642000" />
+      <workItem from="1474439780991" duration="589000" />
+      <workItem from="1474466703485" duration="933000" />
+      <workItem from="1474507849860" duration="1267000" />
+      <workItem from="1474602725210" duration="2634000" />
+      <workItem from="1474715020472" duration="16000" />
+      <workItem from="1474853442283" duration="1512000" />
+      <workItem from="1474862362750" duration="723000" />
+      <workItem from="1474938254710" duration="372000" />
+      <workItem from="1474946428824" duration="224000" />
+      <workItem from="1475136813517" duration="6585000" />
+      <workItem from="1475983228166" duration="2509000" />
+      <workItem from="1476060220827" duration="21000" />
+      <workItem from="1476146690500" duration="8962000" />
+      <workItem from="1476327948133" duration="848000" />
+      <workItem from="1476362457428" duration="592000" />
+      <workItem from="1476405542313" duration="893000" />
+      <workItem from="1476597259192" duration="10685000" />
+      <workItem from="1476666594501" duration="11778000" />
+      <workItem from="1476770619503" duration="10843000" />
+      <workItem from="1476798215587" duration="62000" />
+      <workItem from="1476863941124" duration="821000" />
+      <workItem from="1476953461891" duration="960000" />
+      <workItem from="1477014504386" duration="1329000" />
+      <workItem from="1477123369715" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="胡麻麻商城项目中所用到对的公共组件">
       <created>1473484491875</created>
@@ -1102,7 +1249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474193090224</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="新加了前台网站系统">
+      <created>1474193132551</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1474193132551</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1126,43 +1280,76 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92737000" />
+    <option name="totallyTimeSpent" value="186006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37842464" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23373677" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5045386" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17450683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5113043" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22534142" sideWeight="0.49315068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27836612" sideWeight="0.5068493" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38869864" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37328768" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46404108" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39041096" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27836612" sideWeight="0.49315068" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27836612" sideWeight="0.5068493" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46404108" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37328768" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42782608" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49546143" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5045386" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19818456" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36643836" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37328768" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26666668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4280822" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26701966" sideWeight="0.49315068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27836612" sideWeight="0.5068493" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49546143" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1179,7 +1366,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="增加了httpclient、配置文件、js跨域的通用解决方案" />
     <MESSAGE value="胡麻麻后台管理系统，项目打pom包" />
     <MESSAGE value="胡麻麻manage项目，实体类model，打jar" />
     <MESSAGE value="胡麻麻manage项目，数据库映射model，打jar包" />
@@ -1204,450 +1390,383 @@
     <MESSAGE value="humama-web-pojo，主要为前台网站系统中用到实体类，打jar包" />
     <MESSAGE value="humama-web-service，主要为前台网站系统中用到的service类，打jar包" />
     <MESSAGE value="humama-web-web，主要为前台网站系统中的web项目，打war包" />
-    <option name="LAST_COMMIT_MESSAGE" value="humama-web-web，主要为前台网站系统中的web项目，打war包" />
+    <MESSAGE value="新加了前台网站系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="新加了前台网站系统" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="24" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="MavenRunConfiguration">
+        <watch expression="pageInfo" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/item/ItemParamService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemParamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/item-param-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="145" column="19" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/item-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="126" column="38" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/test/java/testIds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-pojo/src/main/java/com/humama/manage/pojo/item/ItemDesc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-pojo/src/main/java/com/humama/manage/pojo/item/ItemParamItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-pojo/src/main/java/com/humama/manage/pojo/item/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/item/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/item.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="39" selection-start-line="6" selection-start-column="6" selection-end-line="8" selection-end-column="39" />
-          <folding />
+          <caret line="227" column="27" selection-start-line="227" selection-start-column="18" selection-end-line="227" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/java/com/humama/web/controller/item/ItemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="45" column="21" selection-start-line="22" selection-start-column="8" selection-end-line="45" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="72" column="19" selection-start-line="14" selection-start-column="3" selection-end-line="72" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="22" column="21" selection-start-line="19" selection-start-column="6" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/resources/httpclient.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/PropertieService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/java/com/humama/web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/PicUploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="134" column="25" selection-start-line="134" selection-start-column="15" selection-end-line="134" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/resources/env.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/js/HUMAMA.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="76" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/js/login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1453103151525" expanded="true" signature="23070:23098" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/js/jquery.checkout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/bean/ItemCatData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../humama-common/src/main/java/com/humama/common/bean/ItemCatResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="35">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#378#391#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/js/item-cat-all.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="0" column="171" selection-start-line="0" selection-start-column="147" selection-end-line="0" selection-end-column="171" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/item/ItemCatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding>
-            <element signature="e#2739#2747#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/webapp/test-json.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/test-json.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/test-json-3.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/resources/spring/humama-manage-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/resources/spring/humama-web-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/webapp/json.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/test-json-2.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25560">
-          <caret line="356" column="44143" selection-start-line="356" selection-start-column="44143" selection-end-line="356" selection-end-column="44143" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/item.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/js/lib-v1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="1174" column="39" selection-start-line="1174" selection-start-column="39" selection-end-line="1174" selection-end-column="39" />
-          <folding>
-            <marker date="1474192151231" expanded="true" signature="55900:55950" ph="..." />
-            <marker date="1474192151231" expanded="true" signature="56540:56546" ph="..." />
-            <marker date="1474192151231" expanded="true" signature="56967:56973" ph="..." />
-            <marker date="1474192151231" expanded="true" signature="58490:58549" ph="..." />
-            <marker date="1474192151231" expanded="true" signature="60702:60796" ph="..." />
-            <marker date="1474192151231" expanded="true" signature="73799:73912" ph="..." />
-            <marker date="1474192151231" expanded="true" signature="84061:84080" ph="..." />
-            <marker date="1474192151231" expanded="true" signature="90247:90277" ph="..." />
-            <marker date="1474192151231" expanded="true" signature="90289:90311" ph="..." />
-            <marker date="1474192151231" expanded="true" signature="92151:92160" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/api/ApiItemCatController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="93">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/item/ItemCatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-web-service/src/main/java/com/humama/web/service/item/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/3.7.5/pagehelper-3.7.5.jar!/com/github/pagehelper/PageInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="153" column="19" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="76" column="66" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-pojo/src/main/java/com/humama/manage/pojo/item/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-service/src/main/java/com/humama/manage/service/item/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/java/com/humama/manage/controller/Item/ItemParamItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/item-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/webapp/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/webapp/WEB-INF/views/item-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="60" column="12" selection-start-line="48" selection-start-column="4" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" column="19" selection-start-line="14" selection-start-column="4" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="71" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="91" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/resources/env.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/applicationContext-transaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-manage-web/src/main/resources/env.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/commons/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/commons/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1196">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-web-web/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-pojo/src/main/java/com/humama/sso/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/applicationContext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-mapper/src/main/java/com/humama/sso/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/commons/footer-links.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/commons/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2231">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/commons/shortcut.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/resources/spring/humama-sso-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/webapp/WEB-INF/views/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="280" column="0" selection-start-line="280" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-service/src/main/java/com/humama/sso/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../humama-sso-web/src/main/java/com/humama/sso/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1708,12 +1827,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>humama-web-web</last-edited>
+          <last-edited>Web|humama-sso-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2815759" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

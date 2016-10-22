@@ -85,22 +85,22 @@ public class ItemController {
     }
 
     /**
-     * 查询商品描述
+     * 查询商品详细信息
      * @param itemId
      * @return
      */
     @RequestMapping(value = "{itemId}",method = RequestMethod.GET)
-    public ResponseEntity<ItemDesc> queryItemDescByItemId(@PathVariable Long itemId){
+    public ResponseEntity<Item> queryItemDescByItemId(@PathVariable Long itemId){
         try {
-            ItemDesc itemDesc = this.itemDescService.queryById(itemId);
-            if (itemDesc == null){
-                LOGGER.info("查询商品描述为空");
+            Item item = this.itemService.queryById(itemId);
+            if (item == null){
+                LOGGER.info("查询商品详细为空");
                 return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
             }
-            LOGGER.info("查询商品描述{}",itemDesc);
-            return ResponseEntity.status(HttpStatus.OK).body(itemDesc);
+            LOGGER.info("查询商品详细{}",item);
+            return ResponseEntity.status(HttpStatus.OK).body(item);
         } catch (Exception e) {
-            LOGGER.error("查询商品描述发生异常，异常为{}",e);
+            LOGGER.error("查询商品详细发生异常，异常为{}",e);
         }
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
     }
@@ -147,7 +147,7 @@ public class ItemController {
             }
             this.itemService.deleteItemByIds(ids);
             LOGGER.info("删除商品信息，ids={}",ids);
-            return ResponseEntity.status(HttpStatus.OK).build();
+            return ResponseEntity.status(HttpStatus.CREATED).build();
         }catch (Exception e){
             LOGGER.error("删除商品信息发生异常，异常为{}",e);
         }

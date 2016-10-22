@@ -18,6 +18,7 @@ import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -31,6 +32,7 @@ import java.util.Map;
  * @CreatedTime: 2016/9/12 .
  * @Version: 1.0 .
  */
+@Service
 public class ApiService implements BeanFactoryAware {
 
     private BeanFactory beanFactory;

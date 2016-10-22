@@ -27,6 +27,10 @@
         <module name="humama-manage-pojo" />
         <module name="humama-manage-service" />
         <module name="humama-manage-web" />
+        <module name="humama-sso-mapper" />
+        <module name="humama-sso-pojo" />
+        <module name="humama-sso-service" />
+        <module name="humama-sso-web" />
         <module name="humama-web-pojo" />
         <module name="humama-web-service" />
         <module name="humama-web-web" />
@@ -40,6 +44,11 @@
       <module name="humama-manage-service" target="1.7" />
       <module name="humama-manage-web" target="1.7" />
       <module name="humama-parent" target="1.7" />
+      <module name="humama-sso" target="1.7" />
+      <module name="humama-sso-mapper" target="1.7" />
+      <module name="humama-sso-pojo" target="1.7" />
+      <module name="humama-sso-service" target="1.7" />
+      <module name="humama-sso-web" target="1.7" />
       <module name="humama-web" target="1.7" />
       <module name="humama-web-pojo" target="1.7" />
       <module name="humama-web-service" target="1.7" />
